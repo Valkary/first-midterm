@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+html {
+  font-family: 'Karla', sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  inset: 0;
+  height: 100vh;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #E6EFF6;
+}
+
+p {
+  font-size: 16px;
+}
+
+#container {
+  display: flex;
+  width: 850px;
+  height: 75%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border-radius: .5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+#join {
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#join-text {
+  width: 95%;
+  height: 90%;
+}
+
+h1 {
+  color: #3BAFAA;
+}
+
+#guarantee {
+  color: #CDDD7B;
+}
+
+.description {
+  color: #ced1db;
+}
+
+#pricing {
+  width: 50%;
+  background-color: #2BB3B1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#pricing-text {
+  width: 85%;
+  height: 90%;
+  color: white;
+}
+
+#price-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#big-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+span {
+  color: #e6eff6;
+}
+
+#whyus {
+  width: 50%;
+  background-color: #4ABEBD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#whyus-text {
+  width: 85%;
+  height: 90%;
+  color: white;
+}
+
+#whyus-text > p {
+  color: #E5EFF5;
+}
+
+#button-container {
+  width: 100%;
+  height: 17.5%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #BFDF32;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: .3rem;
+  color: white;
+  font-weight: 700;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
